@@ -16,6 +16,7 @@ class ConfigPage(BaseConfig):
     def __init__(self, driver):
         super().__init__(driver)
         self.driver.get(ConfigData.url)
+        self.driver.maximize_window()
 
     def perform_login(self, company_key, username, password, title):
         self.put_value(self.company_name_locator, company_key)
