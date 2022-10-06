@@ -1,7 +1,7 @@
 import pytest
-from SeleniumTestbyRCVacademy.SeleniumTestCases.BaseTest import BaseTest
-from SeleniumTestbyRCVacademy.SeleniumTestCases.ConfigPage import ConfigPage
-from SeleniumTestbyRCVacademy.SeleniumTestCases.config import ConfigData
+from BaseTest import BaseTest
+from ConfigPage import ConfigPage
+from config import ConfigData
 
 
 class TestAutomation(BaseTest):

@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
-from SeleniumTestbyRCVacademy.SeleniumTestCases.BaseConfig import BaseConfig
-from SeleniumTestbyRCVacademy.SeleniumTestCases.config import ConfigData
+from BaseConfig import BaseConfig
+from config import ConfigData
 import time
 
 
